@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "5ceaf8e8-2a2f-4996-9362-3c02d6f75ba2",
+		"name": "Nexton Math API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18307627"
+	},
+	"item": [
+		{
+			"name": "Calculate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"expression\": \"10*(2+5)*10\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/calculate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"calculate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
