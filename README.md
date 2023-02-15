@@ -31,7 +31,7 @@ Alternatively you can use
 
     npm run dev
 
-to run the project with livechanges
+to run the project, it still needs to be built regardless.
 
 The API has a single endpoint for performing math calculations:
 
