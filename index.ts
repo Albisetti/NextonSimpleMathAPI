@@ -11,16 +11,13 @@ app.get("/", (req: Request, res: Response) => {
 app.post("/calculate", (req: Request, res: Response) => {
   const expression: string = req.body.expression;
 
-  // Validate the input expression
   if (!expression) {
     res.status(400).json({ error: "Expression is required" });
     return;
   }
-
-  // Implement the calculator
+  
   const result = calculate(expression);
 
-  // Return the result
   res.status(200).json({ result });
 });
 
